@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/abdullah-1529/node-api/issues"
   },
-  "homepage": "https://github.com/abdullah-1529/node-api#readme"
+  "homepage": "https://github.com/abdullah-1529/node-api#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
