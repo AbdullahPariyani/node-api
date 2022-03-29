@@ -4,8 +4,8 @@ const router = express.Router();
 const bodyParser = require("body-parser");
 const port = 6000;
 
-const appRoutes = require("./routes/hello.routes");
-appRoutes(app);
+require("./routes/hello.routes")(app);
+require("./routes/ping")(app);
 
 app.get("/", (req, res) => {
 	res.send("Hello World");
