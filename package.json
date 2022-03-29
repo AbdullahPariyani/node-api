@@ -1,0 +1,20 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "simple node api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullah-1529/node-api.git"
+  },
+  "author": "abdullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullah-1529/node-api/issues"
+  },
+  "homepage": "https://github.com/abdullah-1529/node-api#readme"
+}
