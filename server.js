@@ -1,6 +1,11 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+const router = express.Router();
+const bodyParser = require("body-parser");
+const port = 6000;
+
+const appRoutes = require("./routes/hello.routes");
+appRoutes(app);
 
 app.get("/", (req, res) => {
 	res.send("Hello World");
